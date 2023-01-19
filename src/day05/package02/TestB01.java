@@ -1,6 +1,6 @@
-package package02;
+package day05.package02;
 
-import package01.TestA01;
+import day05.package01.TestA01;
 
 public class TestB01 extends TestA01 {
 

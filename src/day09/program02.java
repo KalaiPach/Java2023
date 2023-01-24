@@ -4,7 +4,9 @@ public class program02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		whileLoop();
+		forLoop();
+		doLoop();
 		
 	}
 	
@@ -17,7 +19,7 @@ public class program02 {
 			temp=temp*x;
 			x++;
 		}
-		System.out.println(Fact+""+temp);
+		System.out.println(Fact+" "+temp);
 		
 	}
 	
@@ -30,20 +32,19 @@ public class program02 {
 			temp=temp*x;
 			x++;
 		}while (x<=Fact);
-		System.out.println(Fact+""+temp);
+		System.out.println(Fact+" "+temp);
 		
 	}
 	
 	public static void forLoop() {
 		int Fact =8;
-		int x=1;
-		long temp=1;
-		for (int x1=1; x1<=Fact;x1++)
+		int temp=1;
+		for (int x=1; x<=Fact;x++)
 		{
-			temp=temp*x1;
-			x1++;
+			temp=temp*x;
+		
 		}
-		System.out.println(Fact+""+temp);
+		System.out.println(Fact+" "+temp);
 		
 	}
 

@@ -20,6 +20,15 @@ public class program02 {
 			System.out.println(y[a]);
 			a++;
 		}
+		
+		System.out.println("********************");
+		
+		for(int val:y)
+		{
+			//System.out.println("Value");
+			System.out.println(val);
+		}
+		
 	}
 
 }
